@@ -1,0 +1,63 @@
+body {
+	background-color: #000;
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#div1
+{
+    float: left;
+    padding: 250px;
+    padding-bottom: 500px;
+}
+#bt1
+{
+	padding: 20px;
+	font-size: 20px;
+	border:none;
+	border-radius: 10px;
+  position: absolute;
+  left: 200px;
+}
+#bt1:hover {
+  background-color:#085708 ;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#bt2
+{
+	padding: 20px;
+	font-size: 20px;
+	border:none;
+	border-radius: 10px;
+  position: absolute;
+  left: 700px;
+  top: 255px;
+
+}
+#bt2:hover {
+  background-color:#085708 ;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#quote {
+    position: absolute;
+    top:5px;
+    right: 500px;
+    padding: 45px;
+    display: table;
+    color: black;
+	font-family: "Maiandra GD", "Bahnschrift SemiCondensed", "Arial", sans-serif;
+}
+
+#quote h1{
+	color: #000000;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#quote h2{
+	color: black;
+}

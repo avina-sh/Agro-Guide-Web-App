@@ -1,0 +1,151 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#background {
+	background-color: #000;
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#loginContainer * {
+	color: black;
+	font-family: "Maiandra GD", "Bahnschrift SemiCondensed", "Arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+#loginContainer {
+	background-color: #000;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;
+}
+
+::-webkit-input-placeholder {
+   color: rgb(164, 162, 162);
+}
+
+:-moz-placeholder {
+   color: rgb(0, 0, 0);  
+}
+
+::-moz-placeholder {
+   color: rgb(0, 0, 0);  
+}
+
+:-ms-input-placeholder {  
+   color: rgb(0, 0, 0);  
+}
+
+#inputContainer {
+	padding: 45px;
+	width: 400px;
+	float: left;
+	border-right: 1px solid #00ff11;
+}
+
+#inputContainer h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #00ff11;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+#input:active {
+	border: none;
+}
+
+#inputContainer button{
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 250px;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    display: block;
+    height: 41px;
+    width: 100%;
+    letter-spacing: normal;
+    font-size: 20px;
+}
+
+#inputContainer button:hover{
+	cursor: pointer;
+}
+
+#inputContainer label{
+	display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(75, 5, 188);
+}
+
+.accountAlreadyExist span{
+    font-size: 15px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+.accountAlreadyExist {
+	text-align: center;
+}
+
+#registerForm ,
+#loginForm {
+	display: none;
+	margin-top: 50px;
+}
+
+#loginQuote {
+    padding: 45px;
+    display: table;
+    color: black;
+	font-family: "Maiandra GD", "Bahnschrift SemiCondensed", "Arial", sans-serif;
+	margin-top: 50px;
+}
+
+#loginQuote h1{
+	color: #000000;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#loginQuote h2{
+	margin: 30px 0;
+	color: black;
+}
+
+#loginQuote li {
+	font-size: 24px;
+    color: black;
+    list-style-type: none;
+    padding: 9px;
+}
+#loginUsername
+{
+	background-color: blue;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.errorMessage
+{
+	color: red;
+}
