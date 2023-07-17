@@ -1,5 +1,6 @@
 # Agro-Guide-Web-App
 Workflow:
+
 Firstly, there are two buttons on the home page each for customers and farmers. 
 Based on the choice they are redirected to the respective login page.
 The customer login details are stored in the consumer login table and the farmer login details are stored in the users table.
