@@ -21,8 +21,8 @@ Now for crop suggestions, the farmers have a button to indicate the desired crop
 It is obtained by creating a view on the farmer details table and finding the crop with the minimum land area.
 
 HOW TO RUN:
-Install xampp in your system
-Import the database
-Extract these files and place them in htdocs folder in xampp
-Start the apache and mysql server in xampp
-In browser type: localhost/xampp/your_folder_name
+* Install xampp in your system
+* Import the database
+* Extract these files and place them in htdocs folder in xampp
+* Start the apache and mysql server in xampp
+* In browser type: localhost/xampp/your_folder_name
